@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A00E0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 18px;
+    color: #6c757d;
+    margin: 20px 0;
+}
+
+.content .icons {
+    margin: 20px 0;
+}
+
+.content .icons a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.content .buttons {
+    margin: 20px 0;
+}
+
+.content .buttons a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6f42c1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.content .buttons a:first-child {
+    margin-right: 20px;
+}
+
+.illustration {
+    max-width: 50%;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+.page {
+    padding: 50px;
+}
+
+.page h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.page p {
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 0;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.tech-icons i {
+    font-size: 24px;
+    margin: 5px;
+    color: #666666;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+.services p {
+    font-size: 14px;
+    color: #666666;
+    margin: 5px 0;
+}
+
+.services p i {
+    color: #f39c12;
+    margin-right: 5px;
+}
