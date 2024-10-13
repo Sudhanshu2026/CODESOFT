@@ -1,0 +1,290 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #ff6b6b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header .login-btn {
+    background-color: white;
+    color: #ff6b6b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero .content p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.hero .content .btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero .image {
+    max-width: 40%;
+}
+
+.hero .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.clients img {
+    max-width: 100px;
+}
+
+.services {
+    padding: 50px;
+    background-color: white;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+}
+
+.services p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.services .service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.services .service-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.about .content {
+    max-width: 50%;
+}
+
+.about .content h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.about .content p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.about .content .btn {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about .image {
+    max-width: 40%;
+}
+
+.about .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.testimonial {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.testimonial .client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.testimonial .client img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial .client .info {
+    text-align: left;
+}
+
+.testimonial .client .info h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.testimonial .client .info p {
+    font-size: 16px;
+    color: #666;
+}
+
+.newsletter {
+    padding: 50px;
+    background-color: #ff6b6b;
+    text-align: center;
+    color: white;
+}
+
+.newsletter h2 {
+    font-size: 32px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.newsletter .btn {
+    background-color: white;
+    color: #ff6b6b;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column {
+    width: 30%;
+}
+
+.footer .column h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer .column p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .column a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .social a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+}
